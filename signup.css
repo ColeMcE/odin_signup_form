@@ -1,19 +1,35 @@
-body {
+.container {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
+    align-items: stretch;
+    
   }
+
+.leftSide {
+    flex-grow: 1;
+    background-image: url(/baseball.jpg);
+    
+}
+
+.rightSide {
+    flex-grow: 1.5;
+    align-items: center;
+    margin: 25px;
+
+}
 
 .logoBox {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 33.33%;
     background-color: rgba(0, 0, 0, 0.5);
-
+    margin-top: 20%;
+    
 }
 
 .icon {
     width: 100px;
     height: 100px;
+    padding: 10px;
 
 }
