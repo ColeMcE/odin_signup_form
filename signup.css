@@ -17,11 +17,25 @@
   }
 
 .leftSide {
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 2;
     background-image: url(/baseball.jpg);
     background-size: contain;
-    flex-wrap: wrap;
     
+    
+}
+
+.leftSide p {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.leftSide a {
+    color: red;
 }
 
 .logoBox {
@@ -44,7 +58,7 @@
 p.title {
     font-family: 'JelleeBold';
     color: white;
-    font-size: 100%;
+    font-size: 3em;
     padding: 5px;
     
 }
@@ -76,6 +90,7 @@ p.title {
     justify-content: stretch;
     border-radius: 25px;
     background-color: azure;
+    box-shadow: 5px 5px greenyellow;
     
 }
 
@@ -84,8 +99,14 @@ p.title {
    
 }
 
+
+
 .submitSection {
     font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    
 }
 
 
