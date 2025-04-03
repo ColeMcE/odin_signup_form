@@ -1,5 +1,9 @@
 @import url('https://fontlibrary.org/en/face/jellee-typeface');
 
+* {
+    border: 1px solid black;
+}
+
 .container {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
@@ -7,6 +11,7 @@
     align-items: stretch;
     height: 100vh;
     border-radius: 25px;
+    background-color: bisque;
     
     
   }
@@ -14,6 +19,7 @@
 .leftSide {
     flex-grow: 1;
     background-image: url(/baseball.jpg);
+    background-size: contain;
     flex-wrap: wrap;
     
 }
@@ -26,13 +32,13 @@
     margin-top: 40%;
     padding: 10px;
     
+    
 }
 
 .icon {
     width: 75px;
     height: 75px;
     
-
 }
 
 p.title {
@@ -48,7 +54,7 @@ p.title {
     flex-direction: column;
     flex-grow: 1;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 25px;
     flex-basis: 50%;
 
@@ -56,11 +62,17 @@ p.title {
 
 .signUpForm {
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: space-evenly;
+    border-radius: 25px;
+    background-color: azure;
     
 }
 
 fieldset {
-    flex-basis: 200px;
+    display: flex;
+    justify-content: space-around;
+    
 }
