@@ -1,14 +1,42 @@
+@import url('https://fontlibrary.org/en/face/jellee-typeface');
+
 .container {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
     align-items: stretch;
     height: 100vh;
+    border-radius: 25px;
+    
     
   }
 
 .leftSide {
-    flex-grow: 1;
+    flex-grow: 2;
     background-image: url(/baseball.jpg);
+    
+}
+
+.logoBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 40%;
+    padding: 10px;
+    
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+    
+
+}
+
+p.title {
+    font-family: 'JelleeBold';
+    color: white;
+    font-size: 100%;
     
 }
 
@@ -19,22 +47,7 @@
     align-items: flex-start;
     justify-content: space-evenly;
     margin: 25px;
-
-}
-
-.logoBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 20%;
-    
-}
-
-.icon {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+    flex-basis: 50%;
 
 }
 
