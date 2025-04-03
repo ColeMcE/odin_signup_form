@@ -50,6 +50,7 @@ p.title {
 }
 
 .rightSide {
+    font-family: 'JelleeBold';
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -60,19 +61,33 @@ p.title {
 
 }
 
+.introCopy p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.introCopy h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .signUpForm {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: stretch;
     border-radius: 25px;
     background-color: azure;
     
 }
 
-fieldset {
-    display: flex;
-    justify-content: space-around;
-    
+.formFields {
+    margin: 10px;
+   
 }
+
+.submitSection {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
