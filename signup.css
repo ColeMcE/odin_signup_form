@@ -45,8 +45,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 40%;
     padding: 10px;
-    
-    
+      
 }
 
 .icon {
@@ -72,6 +71,8 @@ p.title {
     justify-content: space-around;
     margin: 25px;
     flex-basis: 50%;
+    
+    
 
 }
 
@@ -81,6 +82,7 @@ p.title {
 
 .introCopy h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .signUpForm {
@@ -106,7 +108,14 @@ p.title {
 }
 
 button {
-    
+    color: white;
+    background-color: darkorchid;
+    border-radius: 25px;
+    box-shadow: 2px 2px greenyellow;
+    padding:10px;
+    min-height:30px; 
+    min-width: 120px;
+    font-weight: bold;
 }
 
 
