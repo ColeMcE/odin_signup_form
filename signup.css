@@ -2,3 +2,12 @@ body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
   }
+
+.logoBox {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 33.33%;
+
+}
