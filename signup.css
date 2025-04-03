@@ -4,10 +4,16 @@ body {
   }
 
 .logoBox {
-
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 33.33%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
 
 }
