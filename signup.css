@@ -68,9 +68,9 @@ p.title {
     flex-direction: column;
     flex-grow: 1;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin: 25px;
-    flex-basis: 50%;
+    height: 100vh;
     
     
 
