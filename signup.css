@@ -68,12 +68,10 @@ p.title {
     flex-direction: column;
     flex-grow: 1;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     margin: 25px;
     height: 100vh;
     
-    
-
 }
 
 .introCopy p {
@@ -93,6 +91,7 @@ p.title {
     border-radius: 25px;
     background-color: azure;
     box-shadow: 5px 5px greenyellow;
+    width: max-content;
     
 }
 
@@ -101,6 +100,11 @@ p.title {
    
 }
 
+.formSection {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 
 .submitSection {
@@ -117,6 +121,11 @@ button {
     min-width: 120px;
     font-weight: bold;
 }
+
+label {
+    width: 150px;
+}
+
 
 
 
