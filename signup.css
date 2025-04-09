@@ -1,8 +1,6 @@
 @import url('https://fontlibrary.org/en/face/jellee-typeface');
 
-* {
-    border: 1px solid black;
-}
+
 
 .container {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -30,7 +28,7 @@
 .leftSide p {
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    
 
 }
 
@@ -68,7 +66,7 @@ p.title {
     flex-direction: column;
     flex-grow: 1;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 25px;
     height: 100vh;
     
@@ -76,6 +74,7 @@ p.title {
 
 .introCopy p {
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .introCopy h2 {
@@ -88,15 +87,17 @@ p.title {
     flex-direction: column;
     align-items: flex-start;
     justify-content: stretch;
-   
     width: max-content;
+    text-decoration: underline;
     
 }
 
 .formBox {
     border-radius: 25px;
-    background-color: azure;
+    background-color: rgb(6, 158, 150);
     box-shadow: 5px 5px greenyellow;
+    
+    
 }
 
 .formFields {
@@ -136,6 +137,11 @@ button:hover {
     background-color: salmon;
 }
 
+input {
+
+    background-color : #d1d1d1; 
+  
+  }
 
 
 
